@@ -1,4 +1,7 @@
-﻿ function Set-VsixVersion {
+﻿[cmdletbinding()]
+param()
+
+function Set-VsixVersion {
     [cmdletbinding()]
     param (
         [Parameter(Mandatory=1)]
